@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+  color: azure;
+}
+
+body {
+  background-image: url(./imgs/pr.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  width: 95%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 5% 5% 5%;
+  height: 10vh;
+}
+
+.icon-1 {
+  grid-column: 2/3;
+}
+
+.main-body {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  height: 80vh;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.links {
+  display: grid;
+  grid-template-rows: 20% 1fr 1fr 1fr 20%;
+}
+
+.abt {
+  transform: rotate(-90deg);
+  grid-row: 2/3;
+  padding-top: 40px;
+  font-size: 19px;
+  text-align: left;
+}
+
+.skl {
+  transform: rotate(-90deg);
+  text-align: center;
+  grid-row: 3/4;
+  padding-top: 40px;
+  font-size: 19px;
+}
+
+.prj {
+  transform: rotate(-90deg);
+  text-align: right;
+  grid-row: 4/5;
+  padding-top: 40px;
+  font-size: 19px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 1s;
+}
+.arg{
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 1s;
+}
+.arg:hover{
+  color: aqua;
+}
+
+a:hover{
+    color: #000;
+}
+.name {
+  margin-top: 90px;
+  text-align: left;
+  font-size: 120px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+.slogan {
+  font-size: 25px;
+  padding-top: 10px;
+  font-weight: bolder;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+footer {
+  height: 10vh;
+}
+
+
+.story-time{
+  font-size: 40px;
+  margin-top: 10%;
+}
