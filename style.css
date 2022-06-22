@@ -42,7 +42,7 @@ nav {
 .abt {
   transform: rotate(-90deg);
   grid-row: 2/3;
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 19px;
   text-align: left;
 }
@@ -51,7 +51,7 @@ nav {
   transform: rotate(-90deg);
   text-align: center;
   grid-row: 3/4;
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 19px;
 }
 
@@ -59,7 +59,7 @@ nav {
   transform: rotate(-90deg);
   text-align: right;
   grid-row: 4/5;
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 19px;
 }
 
